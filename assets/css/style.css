@@ -1,0 +1,99 @@
+
+/*Layout styles */
+body{
+	margin-left:auto;
+	margin-right: auto ;
+	background-color: #cccccc;
+	width:960px;
+	font-family:'Arial',  sans-serif;
+	font-size: 18px;
+	color:#777777;
+	background-image:url("../images/circles.png");
+}
+
+header{
+	
+	color:white;
+	background-color:#ffffff;
+	border-color: #cccccc;
+	
+}
+h1{
+	padding:10px;
+	font-family:'Georgia',  serif;
+	background-color: #4aaaa5;
+	float:left;
+			
+
+}
+h2,h3{
+	
+	color:#4aaaa5;
+	display:inline;
+
+}
+/* Menu list */
+ul{
+    list-style-type: none;      
+    overflow: hidden;  	
+}
+
+/* Menu list content */
+.lia{
+	
+    text-decoration: none;
+    text-align: center
+	 
+}
+
+.li{	   
+    float: left;
+   	margin:auto;
+    padding-top: 40px;
+}
+
+.img1{
+	height:30px;
+	width:30px;
+}
+
+.container{
+	 
+	width:960px;
+	display: block;
+
+}
+section{
+	background-color:white;
+	float:left;
+	width:620px;
+	border-width: 15px;
+	border-color: black;
+	margin-top:10px;
+	margin-bottom:10px;
+	padding:10px;
+}
+
+img{
+	float:left;
+	padding:10px;
+}
+aside{
+	background-color:white;	
+	float:right;
+	width:250px;
+	margin-top:10px;
+	margin-bottom:10px;
+	padding:10px;
+}
+
+footer{
+	text-align: center;
+	background-color:#666666;
+	clear:both;
+	padding:15px;
+	color:white;
+	
+}
+
+
