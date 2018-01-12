@@ -92,11 +92,13 @@
 aside:hover{
      background-image:url("../images/circles(1).png");
 }
-
- #p01::first-line{
-     color:#4aaaa5;
-     
+ span{
+	display:block;
 }
+ span::first-line{
+     color:#4aaaa5;
+}
+
  .img1{
      height:40px;
      width:40px;
@@ -111,10 +113,14 @@ aside:hover{
  form{
      padding:10px;
 }
+ input[type=text],textarea{
+	 width:100%;
+}
  input[type=submit]{
      background-color:#4aaaa5;
      color:white;
      padding:10px 20px;
+}
 }
  table{
      width:600px;
@@ -126,5 +132,11 @@ aside:hover{
 /* table,tr,td{
      border: 1px solid black;
 }
-/*Layout styles */
- 
+div.image{
+	content:url("../images/projectsDone.jfif");
+}*/
+#con{
+	float:left;
+	position:relative;
+	padding:10px;
+}
