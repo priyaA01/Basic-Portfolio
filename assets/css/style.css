@@ -3,28 +3,34 @@
      margin-left:auto;
      margin-right:auto ;
      background-color: #4aaaa5;
-     width:960px;
      height:100vh;
      font-family:'Arial', sans-serif ;
      font-size: 15px;
      color:#777777;
      background-image:url("../images/circles.png");
 }
-
  header{
+     position:relative;
+     margin-top:auto;
+     margin-bottom:10px;
+     padding:30px;
      color:white;
-     padding:10px;
-     border-color: #cccccc;
-     float:left;
+    /*background-color: white;
+    */
 }
  nav{
-     display:block;
-     float:right;
-     padding:20px;
+     position:absolute;
+     top:0;
+     right:15%;
+     text-align:center;
+     color:white;
 }
  .container{
-     width:100%;
-     float:left;
+     width:960px;
+     margin-right: auto;
+     margin-left:auto;
+     margin-top:20px;
+     height:90%;
 }
  section{
      float:left;
@@ -44,15 +50,19 @@
      text-align: center;
      background-color:#666666;
      clear:both;
-     padding:15px;
+     padding:10px;
      color:white;
      position: fixed;
-     left: 0;
+     right:0;
+     left:0;
      bottom: 0;
-     width: 100%;
 }
 /*Headings styles */
  h1{
+     position:absolute;
+     bottom:0px;
+     left:15%;
+     display:inline;
      padding:10px;
      font-family:'Georgia', Serif;
      background-color: #4aaaa5;
@@ -68,11 +78,13 @@
  ul{
      list-style-type: none;
      overflow: hidden;
+     padding-left:10px;
 }
 /* Menu list content */
  .lia{
      text-decoration: none;
-     text-align: center color:#777777;
+     text-align: center;
+     color:#777777;
 }
  .li{
      float: left;
@@ -88,20 +100,19 @@
  section:hover {
      background-image:url("../images/circles(1).png");
 }
-
-aside:hover{
+ aside:hover{
      background-image:url("../images/circles(1).png");
 }
  span{
-	display:block;
+     display:block;
+     padding:10px;
 }
  span::first-line{
      color:#4aaaa5;
 }
-
- .img1{
-     height:40px;
-     width:40px;
+#img0{
+     width:;
+     height:;
 }
  p{
      padding:10px;
@@ -114,29 +125,27 @@ aside:hover{
      padding:10px;
 }
  input[type=text],textarea{
-	 width:100%;
+     width:100%;
 }
  input[type=submit]{
      background-color:#4aaaa5;
      color:white;
      padding:10px 20px;
 }
+ .imageContainer{
+     float:left;
+     position:relative;
+     padding:10px;
 }
- table{
-     width:600px;
-     margin:auto;
+ .imageDiv{
+     position:absolute;
+     bottom:30px;
+     right:22px;
+     left:22px;
+     text-align:center;
+     padding:5px;
+     color:white;
+     background-color: #4aaaa5;
 }
- td{
-     padding:30px;
-}
-/* table,tr,td{
-     border: 1px solid black;
-}
-div.image{
-	content:url("../images/projectsDone.jfif");
-}*/
-#con{
-	float:left;
-	position:relative;
-	padding:10px;
-}
+ 
+ 
